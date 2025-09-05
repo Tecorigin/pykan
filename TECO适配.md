@@ -38,6 +38,7 @@ PyKAN 是一个基于 Kolmogorov-Arnold 表示定理的新型神经网络库，�
 #### 2.2.6 执行以下命令安装pykan
     ```
     cd <pykan>
+    pip install -r requirements.txt(将torch==2.2.2注释掉)
     pip install -e .
     ```
 - 安装后可执行以下命令验证安装成功
